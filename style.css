@@ -1,0 +1,143 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   padding: 1.5em;
+   font-family: 'Raleway', sans-serif;
+   line-height: 1.6;
+}
+
+#main{
+   width: 80%;
+   max-width: 80%;
+   margin: 0 auto;
+   background-color: #dfdede;
+   padding-top: 1em;
+}
+
+#title{
+   font-size: 1.8rem;
+   text-align: center;
+   font-weight: 900;
+   margin-top: 1em;
+   margin-bottom: 1.5em;
+}
+
+#img-div{
+   width: 90%;
+   margin: 0 auto;
+   margin-bottom: 1.5em;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#image{
+   display: block;
+   width: 90%;
+   max-width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 0.5em;
+}
+
+#img-caption{
+   background-color: rgba(110, 110, 108, 0.774);
+   color: #fff;
+   opacity: 1;
+   padding: 0.5em 0.9em;
+}
+
+#tribute-info{
+   font-size: 1.2rem;
+   line-height: 1.6;
+   padding: 2em;
+   text-align: justify;
+   font-weight: 600;
+}
+
+.tribute-item{
+   margin-bottom: 1em;
+}
+
+span{
+   font-size: 1.3rem;
+   font-weight: 900;
+}
+
+#tribute-link{
+   display: inline-block;
+   font-size: 1.3rem;
+   text-decoration: none;
+   color: #db302a;
+   font-weight: 700;
+   margin-left: 2em;
+   margin-bottom: 1em;
+}
+
+#tribute-link:hover{
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 500px){
+   body{
+      padding: 0.5em 0.3em;
+   }
+  
+#main{
+   width: 90%;
+   max-width: 90%;
+}
+
+
+#title{
+   font-size: 1.5rem;
+}
+
+#image{
+   width: 100%;
+   max-width: 100%;
+}
+
+#img-caption{
+   font-size: 0.8rem;
+   opacity: 1;
+   padding: 0.2em 0.6em;
+}
+
+#img-div{
+   margin-bottom: 0.2em;
+}
+
+#tribute-info{
+   font-size: 1rem;
+   padding: 1.5em;
+}
+
+span{
+   font-size: 1rem;
+   font-weight: 900;
+}
+
+#tribute-link{
+ 
+   margin-left: 1.3em;
+}
+
+}
+
+button{
+   background-color: #dfdede;
+   padding: 0.2em;
+}
+
+.hidden{
+   display: none;
+}
+
+.show-text{
+   display: block;
+}
